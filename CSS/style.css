@@ -516,6 +516,31 @@ footer .copyright{
     text-align: center;
 }
 
+
+
+/* .... shop page.... */
+
+#page-header{
+    background-image: url(/banner/b1.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+    gap: 20px;
+}
+
+#page-header h2, p{
+    color: #fff;
+}
+
+
+
+
+
 /* .....media Queries....*/
 
 @media (max-width:799px){
