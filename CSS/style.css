@@ -557,6 +557,35 @@ footer .copyright{
 
 
 
+/* ....sproduct page... */
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+}
+#
+
+#prodetails .single-pro-details{
+
+}
+
+
+
+
 /* .....media Queries....*/
 
 @media (max-width:799px){
