@@ -745,3 +745,11 @@ h1 {
 }
 
 }
+
+
+/* blog page */
+
+#page-header.blog-header{
+    background-image: url(/banner/b19.jpg);
+
+}
