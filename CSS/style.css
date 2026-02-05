@@ -753,3 +753,75 @@ h1 {
     background-image: url(/banner/b19.jpg);
 
 }
+
+#blog{
+    padding: 150px 150px 0 150px;
+}
+
+#blog .blog-box{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
+
+#blog .blog-img{
+    width: 50%;
+    margin-right: 40px;
+}
+
+#blog img{
+    width: 100%;
+    border-radius: 4px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#blog .blog-details{
+    width: 50%;
+}
+
+#blog .blog-details a{
+    position: relative;
+    text-decoration: none;
+    font-size: 11px;
+    color: #000;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+#blog .blog-details a::after {
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 4px;
+    right: -60px;
+}
+
+#blog .blog-details a:hover {
+    color: #088178;
+}
+
+#blog .blog-details a:hover::after {
+    background-color: #088178;
+}
+
+#blog .blog-details p {
+    font-size: 14px;
+    color: #606063;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* padding: 10px 0; */
+}
+
+#blog .blog-box h1{
+    position: absolute;
+    top: -50px;
+    left: 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: #c9cbce;
+    z-index: -9;
+}
