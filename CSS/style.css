@@ -686,7 +686,6 @@ footer .copyright{
     color: #606063;
     margin-top: 10px;
     margin-bottom: 10px;
-    /* padding: 10px 0; */
 }
 
 #blog .blog-box h1{
@@ -698,6 +697,21 @@ footer .copyright{
     color: #c9cbce;
     z-index: -9;
 }
+
+#page-header.about-header {
+    background-image: url(/banner/banner.png);
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
 
 
 
