@@ -733,9 +733,26 @@ footer .copyright{
 }
 
 
+#contact-details .details p{
+    color: #1a1a1a;
+}
 
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+    gap: 10px;
+}
 
+#contact-details .details i{
+    color: #088178;
+    font-size: 18px;
+}
 
+#contact-details .details h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 
 
 /* .....media Queries....*/
