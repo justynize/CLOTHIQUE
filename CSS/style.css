@@ -860,6 +860,8 @@ footer .copyright{
 
 /* .....media Queries....*/
 
+/* medium view */
+
 @media (max-width:799px){
     .section-p1 {
     padding: 40px 40px;
@@ -907,6 +909,8 @@ footer .copyright{
    padding: 0 80px;
    background-position: top 30% right 30%;
 }
+
+/* features */
 #features {
     justify-content: center;
 }
@@ -936,8 +940,20 @@ footer .copyright{
     width: 70%;
 }
 
+/* contact page */
+
+#form-details {
+    padding: 40px;
 }
 
+#form-details form {
+    width: 50%;
+}
+}
+
+
+
+/* mobile view */
 @media (max-width: 477px){
     #header {
     padding: 10px 30px;
@@ -1027,6 +1043,31 @@ h1 {
 #about-app .video {
     width: 100%;
 }
+/* contact page */
 
+#contact-details {
+    flex-direction: column;
+}
+
+
+#contact-details .details {
+    width: 100%;
+    margin-bottom: 30px;
+}
+#contact-details .map {
+    width: 100%;
+}
+
+#form-details {
+    margin: 10px;
+    padding: 30px 10px;
+    border: 1px solid #e1e1e1;
+    flex-wrap: wrap;
+}
+
+#form-details form {
+    width: 100%;
+    margin-bottom: 30px;
+}
 }
 
